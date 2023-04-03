@@ -28,7 +28,7 @@
       $artista['email'] = $_POST['data_nascimento'];
       $artista['email'] = $_POST['url_imagem'];
 
-      $model = new Autor();
+      $model = new Artista();
 
       if ($artista['id'] == 0) {
         $model->create($artista);
