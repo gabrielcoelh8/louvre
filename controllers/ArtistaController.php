@@ -25,8 +25,8 @@
       $artista = array();
       $artista['id'] = $_POST['id'];
       $artista['nome'] = $_POST['nome'];
-      $artista['email'] = $_POST['data_nascimento'];
-      $artista['email'] = $_POST['url_imagem'];
+      $artista['data_nascimento'] = $_POST['data_nascimento'];
+      $artista['url_imagem'] = $_POST['url_imagem'];
 
       $model = new Artista();
 
