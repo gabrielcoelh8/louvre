@@ -25,3 +25,18 @@ CREATE TABLE escultura(
 );
 
 SELECT pintura.*, artista.nome AS artista_nome FROM pintura JOIN artista ON artista.id = pintura.id_artista ORDER BY id_artista
+
+INSERT INTO artista(nome, data_nascimento, url_imagem)
+VALUES ('Vincent van Gogh', '1853-03-30', ''),
+('Vincent van Gogh', '1853-03-30', ''),
+('Vincent van Gogh', '1853-03-30', '');
+
+INSERT INTO artista(nome, tecnica, ano_lancamento, url_imagem, id_artista)
+VALUES ('', '', '', '', ''),
+('', '', '', '', ''),
+('', '', '', '', '');
+
+INSERT INTO escultura(nome, material, descricao, ano_lancamento, url_imagem, id_artista)
+VALUES ('', '', '', '', '', ''),
+('', '', '', '', '', ''),
+('', '', '', '', '', '');
