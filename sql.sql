@@ -28,15 +28,16 @@ SELECT pintura.*, artista.nome AS artista_nome FROM pintura JOIN artista ON arti
 
 INSERT INTO artista(nome, data_nascimento, url_imagem)
 VALUES ('Vincent van Gogh', '1853-03-30', ''),
-('Vincent van Gogh', '1853-03-30', ''),
-('Vincent van Gogh', '1853-03-30', '');
+('Leonardo da Vinci', '1452-04-15', ''),
+('John William Waterhouse', '1849-04-06', ''),
+('Michelangelo di Lodovico Buonarroti Simoni', '1475-03-06', '');
 
-INSERT INTO artista(nome, tecnica, ano_lancamento, url_imagem, id_artista)
-VALUES ('', '', '', '', ''),
-('', '', '', '', ''),
-('', '', '', '', '');
+INSERT INTO pintura(nome, tecnica, ano_lancamento, url_imagem, id_artista)
+VALUES ('Os Comedores de Batata', 'Tinta a óleo', 1885, '', 1),
+('A Anunciação', 'Têmpera, Tinta a óleo', 1472, '', 2),
+('Gather Ye Rosebuds While Ye May', 'Tinta a óleo', 1909, '', 3);
 
 INSERT INTO escultura(nome, material, descricao, ano_lancamento, url_imagem, id_artista)
-VALUES ('', '', '', '', '', ''),
-('', '', '', '', '', ''),
-('', '', '', '', '', '');
+VALUES ('Pietà', 'Escultura em Mármore', 'A Pietà (em português Piedade) de Michelangelo é talvez a pietà mais conhecida e uma das mais famosas esculturas feitas pelo artista. Representa Jesus morto nos braços de sua mãe.', 1499, '', 4),
+('Pietà', 'Escultura em Mármore', 'Faz parte da decoração da Arca de São Domingo, na Basílica de São Domingo em Bolonha.', 1494, '', 4),
+('Tumba de Júlio II', 'Escultura em Mármore', 'A Tumba de Júlio II é um conjunto decorativo e arquitetônico concebido pelo artista italiano Michelangelo, encomendado primeiramente em 1505 e finalizado em 1545 para servir de mausoléu ao Papa Júlio II.', 1545, '', 4);
