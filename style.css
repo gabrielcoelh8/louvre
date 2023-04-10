@@ -8,3 +8,8 @@ body {
     background-size: cover;
     height: 90vh;
 }
+
+img {
+    width: 350px;
+    height: 350px;
+}

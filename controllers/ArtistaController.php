@@ -3,13 +3,13 @@
     function editar($id) {
       $model = new Artista();
       $artista = $model->getById($id);
-      //$this->view('frmAutor', compact('artista'));
+      $this->view('frmArtista', compact('artista'));
     }
 
     function listar() {
       $model = new Artista();
       $artistas = $model->read();
-      //$this->view('listagemAutor', compact('artistas'));
+      $this->view('listagemArtista', compact('artistas'));
     }
 
     function novo() {
@@ -18,7 +18,7 @@
       $artista['nome'] = "";
       $artista['data_nascimento'] = "";
       $artista['url_imagem'] = "";
-      //$this->view("frmAutor", compact('artista'));
+      $this->view("frmArtista", compact('artista'));
     }
 
     function salvar() {

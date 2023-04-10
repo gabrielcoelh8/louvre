@@ -28,10 +28,10 @@
       $escultura['url_imagem'] = "";
       $escultura['id_artista'] = 0;
 
-      $modelArtista = new Autor();
+      $modelArtista = new Artista();
       $artistas = $modelArtista->read();
 
-      $this->view('frmNoticia', compact('escultura', 'artistas'));
+      $this->view('frmEscultura', compact('escultura', 'artistas'));
     }
 
     function salvar() {
