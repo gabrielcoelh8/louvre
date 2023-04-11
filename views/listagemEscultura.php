@@ -19,7 +19,7 @@
 
                   <li class='list-group-item'><small>Material: </small><span class='badge rounded-pill text-bg-secondary'>{$escultura['material']}</span></li>
 
-                  <li class='list-group-item'><small>Descrição: </small><span class='badge rounded-pill text-bg-warning'>{$escultura['descricao']}</span></li>
+                  <li class='list-group-item'><span class='badge rounded-pill text-bg-warning'>Descrição:</span> <small>{$escultura['descricao']}</small></li>
 
                   <li class='list-group-item'><small>Ano de Lançamento: </small><span class='badge rounded-pill text-bg-danger'>{$escultura['ano_lancamento']}</span></li>
 

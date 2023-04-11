@@ -9,7 +9,6 @@
     <link rel="stylesheet" href=<?php echo APP.'style.css'?>>
   </head>
 
-  
   <body>
 
     <!--navbar-->
